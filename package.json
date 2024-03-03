@@ -7,6 +7,10 @@
   },
   "scripts": {
     "start": "nodemon app.js"
+    },
+    "repository":{
+      "type": "git",
+      "url": "https://github.com/KeenGWatanabe/KGW-productList.git"
     }
   }
 

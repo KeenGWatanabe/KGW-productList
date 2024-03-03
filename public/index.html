@@ -19,13 +19,31 @@
   </head>
   <body>
     <form class="task-form">
-      <h4>task manager</h4>
+      <h4>Unit Number</h4>
       <div class="form-control">
         <input
+          type="number"
+          name="unit"
+          class="task-input"
+          placeholder="0207"
+        /><br>       
+         <input
           type="text"
           name="name"
           class="task-input"
-          placeholder="e.g. wash dishes"
+          placeholder="customer"
+        />
+        <input
+          type="text"
+          name="period"
+          class="task-input"
+          placeholder="period"
+        />
+        <input
+          type="number"
+          name="price"
+          class="task-input"
+          placeholder="price"
         />
         <button type="submit" class="btn submit-btn">submit</button>
       </div>
