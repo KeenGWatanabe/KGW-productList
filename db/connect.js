@@ -1,0 +1,13 @@
+const mongoose = require('mongoose')
+
+// need to put your mongoDB url here.
+const connectDB = (url) => {
+return mongoose.connect(url, {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true,
+}).then(() => console.log('connected to the DB...')).catch((err)=>console.log(err))
+}
+
+module.exports = connectDB
